@@ -13,7 +13,7 @@ A simple Todo application built with **Remix** and **Appwrite**, supporting nest
 git clone https://github.com/your-username/recursive-todo-app.git
 cd recursive-todo-app
 
-##**Plan for a CI/CD pipeline regarding this project:**
+## Plan for a CI/CD pipeline regarding this project
 
 ### 1.Install Dependencies:
 Install dependencies using npm install.
