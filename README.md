@@ -1,13 +1,27 @@
-##Plan for a CI/CD pipeline regarding this project:
+# Recursive Todo App
+A simple Todo application built with **Remix** and **Appwrite**, supporting nested tasks and user authentication.
+
+## Features
+- User signup and authentication via Appwrite
+- Recursive todo list (tasks and sub-tasks)
+- Client-side form validation
+- Styled pages with colored theme
+
+## Setup
+### 1. Clone the Repository
+
+git clone https://github.com/your-username/recursive-todo-app.git
+cd recursive-todo-app
+
+##**Plan for a CI/CD pipeline regarding this project:**
 
 ### 1.Install Dependencies:
 Install dependencies using npm install.
-```bash
 npm install
+
 Ensures all packages required to build and run the app are available.
 
 Start the development server:
-```bash
 npx remix dev
 
 Open your browser at http://localhost:3000 to see the app.
