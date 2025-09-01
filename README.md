@@ -10,7 +10,7 @@ A simple Todo application built with **Remix** and **Appwrite**, supporting nest
 ## Setup
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/recursive-todo-app.git
+git clone https://github.com/your-username/recursive-todo-app.git  
 cd recursive-todo-app
 
 ## Plan for a CI/CD pipeline regarding this project
