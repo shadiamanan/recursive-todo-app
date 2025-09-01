@@ -54,5 +54,5 @@ This step ensures the application is production-ready.
 - Automatically build and deploy the app on push to the `main` branch
 
 ### Recommended Tools:
-GitHub Actions : for seamless integration with GitHub repositories.
+GitHub Actions : for seamless integration with GitHub repositories.  
 Docker : for consistent environment builds across local, staging, and production.
