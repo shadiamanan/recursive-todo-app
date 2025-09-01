@@ -4,7 +4,7 @@ A simple Todo application built with **Remix** and **Appwrite**, supporting nest
 ## Features
 - User signup and authentication via Appwrite
 - Recursive todo list (tasks and sub-tasks)
-- Client-side form validation
+- Client-side form validation for signup form (Bonus Task)
 - Styled pages with colored theme
 
 ## Setup
@@ -25,8 +25,8 @@ Install dependencies using:
 
 Create a `.env` file in the project root and add:
 
-APPWRITE_ENDPOINT=your-appwrite-endpoint
-APPWRITE_PROJECT_ID=your-project-id
+APPWRITE_ENDPOINT=your-appwrite-endpoint  
+APPWRITE_PROJECT_ID=your-project-id  
 
 **Start the development server**
 `npx remix dev`
