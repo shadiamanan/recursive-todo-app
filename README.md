@@ -19,12 +19,12 @@ cd recursive-todo-app
 Install dependencies using:
 `npm install`
 
-Ensures all packages required to build and run the app are available.
+-Ensures all packages required to build and run the app are available.
 
 Environment Variables:
-Create a .env file in the project root and add:
-`APPWRITE_ENDPOINT=your-appwrite-endpoint`
-`APPWRITE_PROJECT_ID=your-project-id`
+-Create a .env file in the project root and add:
+-`APPWRITE_ENDPOINT=your-appwrite-endpoint`
+-`APPWRITE_PROJECT_ID=your-project-id`
 
 Start the development server:
 `npx remix dev`
