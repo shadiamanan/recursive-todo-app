@@ -67,5 +67,5 @@ GitHub Actions can be used to automate various tasks related to pull requests, s
 
 **2. Docker** : for consistent environment builds across development, testing, and production.  
 Using Docker to run the CI/CD pipeline jobs.  
-The built Docker image can be deployed to production in a later job.
+The built Docker image can be deployed to production in a subsequent job.
 Docker improves CI/CD pipelines by providing a consistent environment throughout the development lifecycle. Containers ensure that applications run the same in development, testing, and production environments.
