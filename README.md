@@ -21,7 +21,7 @@ Install dependencies using:
 
 -Ensures all packages required to build and run the app are available.
 
-#Environment Variables
+Environment Variables
 Create a `.env` file in the project root and add:
 
 APPWRITE_ENDPOINT=your-appwrite-endpoint
