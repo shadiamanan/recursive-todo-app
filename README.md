@@ -56,7 +56,7 @@ This step ensures the application is production-ready.
 ### Recommended Tools:
 **1. GitHub Actions** : for seamless integration with GitHub repositories.   
 
-**Key Features:**
+**Key Features:**  
 GitHub Actions is tightly integrated with GitHub repositories which makes it easy to set up and manage CI/CD pipelines. This integration simplifies the workflow and improves collaboration among team members.    
 
 **Pre-built Actions**  
