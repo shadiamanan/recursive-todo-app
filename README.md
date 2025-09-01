@@ -46,8 +46,10 @@ Compile and bundle the Remix application.
 This step ensures the application is production-ready.
 
 ### 5.Deploy:
-Deploy the built application to a hosting environment.
-Example platforms: Netlify or a custom server using Docker.
+
+- Push the repository to GitHub  
+- Connect the repository to a CI/CD platform like **GitHub Actions**  
+- Automatically build and deploy the app on push to the `main` branch
 
 ### Recommended Tools:
 GitHub Actions : for seamless integration with GitHub repositories.
