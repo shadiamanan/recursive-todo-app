@@ -16,8 +16,8 @@ cd recursive-todo-app
 ## Plan for a CI/CD pipeline regarding this project
 
 ### 1.Install Dependencies:
-Install dependencies using npm install.
-npm install
+Install dependencies using:
+`npm install`
 
 Ensures all packages required to build and run the app are available.
 
