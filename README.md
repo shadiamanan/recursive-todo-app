@@ -57,10 +57,15 @@ This step ensures the application is production-ready.
 GitHub Actions : for seamless integration with GitHub repositories.   
 
 **Key Features:**
-GitHub Actions is tightly integrated with GitHub repositories, making it easy to set up and manage CI/CD pipelines and other automated tasks within the same platform. This integration simplifies the workflow and improves collaboration among team members.    
+GitHub Actions is tightly integrated with GitHub repositories which makes it easy to set up and manage CI/CD pipelines and other. This integration simplifies the workflow and improves collaboration among team members.  
+
 **Pre-built Actions**  
-GitHub Actions provides a marketplace of pre-built actions that can be used to extend and customize the pipeline.   
+GitHub Actions provides a marketplace of pre-built actions that can be used to extend and customize the pipeline
+.   
 **Pull Request Automation**
-GitHub Actions can be used to automate various tasks related to pull requests, such as running tests, checking code quality, and providing feedback on the changes.  
+GitHub Actions can be used to automate various tasks related to pull requests, such as running tests, checking code quality, and providing code feedback etc.  
 
 **Docker** : for consistent environment builds across local, staging, and production.
+Using Docker to run the CI/CD pipeline jobs
+The built Docker image can be deployed to production in a later job.
+Docker improves CI/CD pipelines by providing a consistent environment throughout the development lifecycle. Containers ensure that applications run the same in development, testing, and production environments.
