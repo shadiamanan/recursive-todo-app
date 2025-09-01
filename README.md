@@ -57,7 +57,7 @@ This step ensures the application is production-ready.
 **GitHub Actions** : for seamless integration with GitHub repositories.   
 
 **Key Features:**
-GitHub Actions is tightly integrated with GitHub repositories which makes it easy to set up and manage CI/CD pipelines and other. This integration simplifies the workflow and improves collaboration among team members.  
+GitHub Actions is tightly integrated with GitHub repositories which makes it easy to set up and manage CI/CD pipelines. This integration simplifies the workflow and improves collaboration among team members.  
 
 **Pre-built Actions**  
 GitHub Actions provides a marketplace of pre-built actions that can be used to extend and customize the pipeline
