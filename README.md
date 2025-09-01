@@ -56,13 +56,13 @@ This step ensures the application is production-ready.
 ### Recommended Tools:
 **1. GitHub Actions** : for seamless integration with GitHub repositories.   
 
-**Key Features:**  
+- **Key Features:**  
 GitHub Actions is tightly integrated with GitHub repositories which makes it easy to set up and manage CI/CD pipelines. This integration simplifies the workflow and improves collaboration among team members.    
 
-**Pre-built Actions**  
+- **Pre-built Actions**  
 GitHub Actions provides a marketplace of pre-built actions that can be used to extend and customize the pipeline.  
   
-**Pull Request Automation**
+- **Pull Request Automation**
 GitHub Actions can be used to automate various tasks related to pull requests, such as running tests, checking code quality, and providing code feedback etc.  
 
 **2. Docker** : for consistent environment builds across development, testing, and production.  
