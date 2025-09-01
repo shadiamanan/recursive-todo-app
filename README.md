@@ -28,7 +28,7 @@ Create a `.env` file in the project root and add:
 APPWRITE_ENDPOINT=your-appwrite-endpoint  
 APPWRITE_PROJECT_ID=your-project-id  
 
-**Start the development server**
+**Start the development server**  
 `npx remix dev`
 
 Open your browser at http://localhost:3000 to see the app.
