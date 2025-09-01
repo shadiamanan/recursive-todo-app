@@ -22,21 +22,21 @@ Install dependencies using:
 Ensures all packages required to build and run the app are available.
 
 Start the development server:
-npx remix dev
+`npx remix dev`
 
 Open your browser at http://localhost:3000 to see the app.
 
 ### 2.Linting & Formatting:
 Run eslint or prettier to enforce consistent code style and catch common errors early.
-Example: npm run lint.
+Example: `npm run lint`.
 
 ### 3.Unit & Integration Tests:
 Execute tests using a framework like Jest or Vitest.
-Example: npm run test ensures core functionality like adding, deleting, and marking todos works as expected.
+Example: `npm run test` ensures core functionality like adding, deleting, and marking todos works as expected.
 
 ### 4.Build:
 Compile and bundle the Remix application.
-npm run build
+`npm run build`
 
 This step ensures the application is production-ready.
 
