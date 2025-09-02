@@ -4,6 +4,10 @@ A simple Todo application built with **Remix** and **Appwrite**, supporting nest
 ## Features
 - User signup and authentication via Appwrite
 - Recursive todo list (tasks and sub-tasks)
+   - Users can **add** new to-do items by pressing "Add" button. 
+   - Users can **add sub-tasks** to any existing item. 
+   - Users can **mark items as complete** by checking the checkbox next to the item. 
+   - Users can **delete items** by pressing the "Delete" button. 
 - Client-side form validation for signup form (Bonus Task)
 - Styled pages with colored theme
 
