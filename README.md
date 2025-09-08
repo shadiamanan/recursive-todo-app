@@ -46,7 +46,17 @@ APPWRITE_PROJECT_ID=your-project-id
 **Start the development server**  
 `npx remix dev`
 
-Open your browser at http://localhost:3000 to see the app.
+Open your browser at http://localhost:3000 to see the app.    
+
+**Optional**   
+
+To push local changes back to Appwrite:  
+
+`appwrite push`  
+
+To view linked project info:  
+
+`appwrite info`  
 
 ### 2.Linting & Formatting:
 Run eslint or prettier to enforce consistent code style and catch common errors early.
