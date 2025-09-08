@@ -28,7 +28,7 @@ Install dependencies using:
 **Appwrite Project Setup**  
 
 -Make sure Appwrite CLI is installed.  
--The project is already linked via appwrite.config.json.  
+-The project is already linked via `appwrite.config.json`.  
 
 To pull all resources (databases, functions, etc.) from the linked Appwrite project:  
 
