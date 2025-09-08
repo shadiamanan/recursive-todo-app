@@ -23,7 +23,18 @@ cd recursive-todo-app
 Install dependencies using:
 `npm install`
 
--Ensures all packages required to build and run the app are available.
+-Ensures all packages required to build and run the app are available.  
+
+**Appwrite Project Setup**  
+
+-Make sure Appwrite CLI is installed.  
+-The project is already linked via appwrite.config.json.  
+
+To pull all resources (databases, functions, etc.) from the linked Appwrite project:  
+
+`appwrite pull`  
+
+This will create the necessary local files for databases, functions, and other resources defined in the cloud project.  
 
 **Environment Variables**
 
