@@ -1,0 +1,121 @@
+{
+    "projectId": "68b438e3002ed16fc868",
+    "endpoint": "https://fra.cloud.appwrite.io/v1",
+    "projectName": "RecursiveTodoApp",
+    "settings": {
+        "services": {
+            "account": true,
+            "avatars": true,
+            "databases": true,
+            "locale": true,
+            "health": true,
+            "storage": true,
+            "teams": true,
+            "users": true,
+            "sites": true,
+            "functions": true,
+            "graphql": true,
+            "messaging": true
+        },
+        "auth": {
+            "methods": {
+                "jwt": true,
+                "phone": true,
+                "invites": true,
+                "anonymous": true,
+                "email-otp": true,
+                "magic-url": true,
+                "email-password": true
+            },
+            "security": {
+                "duration": 31536000,
+                "limit": 0,
+                "sessionsLimit": 10,
+                "passwordHistory": 0,
+                "passwordDictionary": false,
+                "personalDataCheck": false,
+                "sessionAlerts": false,
+                "mockNumbers": []
+            }
+        }
+    },
+    "functions": [
+        {
+            "$id": "68b597ef001b852e4a58",
+            "execute": [
+                "any"
+            ],
+            "name": "WelcomeEmail",
+            "enabled": true,
+            "logging": true,
+            "runtime": "node-22",
+            "scopes": [
+                "users.read"
+            ],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "specification": "s-0.5vcpu-512mb",
+            "path": "functions/WelcomeEmail"
+        },
+        {
+            "$id": "68b5a9780015428e5e3b",
+            "execute": [
+                "any"
+            ],
+            "name": "WelcomeEmaill",
+            "enabled": true,
+            "logging": true,
+            "runtime": "node-22",
+            "scopes": [
+                "users.read"
+            ],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "specification": "s-0.5vcpu-512mb",
+            "path": "functions/WelcomeEmaill"
+        }
+    ],
+    "tablesDB": [
+        {
+            "$id": "68b5703f001b24b82cb2",
+            "name": "TodoApp",
+            "enabled": true
+        }
+    ],
+    "tables": [
+        {
+            "$id": "todos",
+            "$permissions": [],
+            "databaseId": "68b5703f001b24b82cb2",
+            "name": "Todos",
+            "enabled": true,
+            "columns": [
+                {
+                    "key": "userId",
+                    "type": "string",
+                    "required": true,
+                    "array": false,
+                    "size": 36,
+                    "default": null,
+                    "encrypt": false
+                },
+                {
+                    "key": "todos",
+                    "type": "string",
+                    "required": true,
+                    "array": false,
+                    "size": 6000,
+                    "default": null,
+                    "encrypt": false
+                }
+            ],
+            "indexes": []
+        }
+    ]
+}
