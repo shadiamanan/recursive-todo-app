@@ -32,7 +32,7 @@ This project uses Appwrite for backend services.
 -Make sure Appwrite CLI is installed.  
 -The project is already linked via `appwrite.config.json`.  
 
-To work with the Appwrite project locally:  
+**Working with the Appwrite Project Locally**    
 
 Place the `appwrite.config.json` file in the root of the project.  
 
